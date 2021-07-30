@@ -1,5 +1,7 @@
 # Project exclude paths
 /out/
-/untitled1.iml
 /lib/
 /.idea/
+/RegexpForSensitiveFields.iml
+/src/test/
+/target/
