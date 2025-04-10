@@ -12,5 +12,6 @@ class Main {
             builder.insert(0, " - %replace(").append("){'(" + sensitiveFields[i] + "=.)([\\s\\S]*?)(.[,|)])','\$1****\$3'}")
         }
         println(builder.toString())
+
     }
 }
